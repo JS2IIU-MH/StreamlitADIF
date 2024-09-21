@@ -8,9 +8,11 @@ Streamlitを使ってADIFユーティリティツールを公開していきま�
 
 ## ADIF to CSV
 
-ADIFファイルを読み込ませて、CSVファイル化したものをダウンロードすることができます。 **残念ながらStreamlitの`file_uploader`はファイルサイズ200M制限があります。おそらく7000QSO程度で超えてしまうのではないかと思われます。** 大きいファイルへの対応は対応方法を検討中です。
+ADIFファイルを読み込ませて、CSVファイル化したものをダウンロードすることができます。 **残念ながらStreamlitの`file_uploader()`はファイルサイズ200M制限があります。おそらく7,000QSO程度で超えてしまうのではないかと思われます。** Streamlitでの解決方法が見つからない状況のため、大きいファイルへの対応を検討中です。
 
-Streamlit Community Cloudにデプロイしております。こちらからアクセスして下さい。意地悪はおやめ下さい、サービスを止められてしまいます。
+- Streamlit Community Cloudにデプロイしております。
+- [こちらから](https://appadif-csv.streamlit.app/)アクセスして下さい。
+- 意地悪試験はおやめ下さい、サービスを止められてしまいます。
 
 [https://appadif-csv.streamlit.app/](https://appadif-csv.streamlit.app/)
 
