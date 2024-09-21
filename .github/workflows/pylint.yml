@@ -32,5 +32,13 @@ jobs:
           NAME: time
           LABEL: 'Updated at'
           STATUS: ${{ steps.date.outputs.data }}
-          COLOR: 00EEFF
+          COLOR: 4B0082
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Pylint lint badge status update
+        uses: RubbaBoy/BYOB@v1.3.0
+        with:
+          NAME: 'passing_lints'
+          LABEL: 'pylint'
+          STATUS: 'running or failed'
+          COLOR: 0088FF
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
