@@ -1,13 +1,18 @@
-import pandas as pd
+''' st_adi_df_csv.py: convert adif file to csv on Streamlit demo '''
+
 import re
+
+import pandas as pd
 import streamlit as st
 
 def parse_adif_record(record):
+    ''' returns parsed one QSO record as dict '''
     # Find all fields in the format <FIELD:LENGTH>value
     fields = re.findall(r'<(.*?):(\d+)>([^<]*)', record)
     return {field[0].upper(): field[2] for field in fields}
 
 def adif_to_dataframe(file_content):
+    ''' returns pd.DataFrame with all records in adif file '''
     lines = file_content.decode("utf-8").splitlines()
 
     # Find the line where the header ends
@@ -26,8 +31,8 @@ def adif_to_dataframe(file_content):
             records.append(parse_adif_record(record))
 
     # Convert to DataFrame
-    df = pd.DataFrame(records)
-    return df
+    adif_df = pd.DataFrame(records)
+    return adif_df
 
 # Streamlit App
 st.title("ADIF/ADIファイル変換")
