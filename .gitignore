@@ -1,6 +1,7 @@
 # local
 data/adif_data.csv
 data/2024-09-15_215825_wsjtx_log.adi
+data/sample.adi
 
 test*
 
