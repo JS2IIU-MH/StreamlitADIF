@@ -35,6 +35,10 @@ def adif_to_dataframe(file_content):
     return adif_df
 
 # Streamlit App
+st.set_page_config(
+    page_title="ADIF/ADIファイル変換",
+)
+
 st.title("ADIF/ADIファイル変換")
 
 st.write("本ツールによる損害等には責任を持ちません。ADIFファイルはバックアップした状態でご利用ください。サーバ側にADIFデータは残しません。")
