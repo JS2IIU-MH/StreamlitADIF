@@ -1,5 +1,8 @@
 # ADIF utils on Streamlit
 
+![](https://byob.yarr.is/JS2IIU-MH/StreamlitADIF/time)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+
 Streamlitを使ってADIFユーティリティツールを公開していきます。
 
 ## ADIF to CSV
