@@ -6,7 +6,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/JS2IIU-MH/StreamlitADIF?display_timestamp=committer&style=flat&color=blue)
 
 
-
 Streamlitを使ってADIFユーティリティツールを公開していきます。
 
 ## ADIF to CSV
@@ -20,6 +19,8 @@ ADIFファイルを読み込ませて、CSVファイル化したものをダウ�
 [https://appadif-csv.streamlit.app/](https://appadif-csv.streamlit.app/)
 
 [<img src="doc/007.png" width=500></img>](https://appadif-csv.streamlit.app/)
+
+お試ししていただいた方からのフィードバックをお待ちしております。こちらの[メール](mailto:info@js2iiu.com)までお願いいたします。
 
 **全体のながれ**
 
