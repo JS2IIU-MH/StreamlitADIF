@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: date
-        run: echo "##[set-output name=data;]$(date)"
+        run: echo "{name}={date}" >> $GITHUB_OUTPUT
       - name: Time badge
         uses: RubbaBoy/BYOB@v1.3.0
         with:
