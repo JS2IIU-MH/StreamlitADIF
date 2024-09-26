@@ -3,6 +3,9 @@
 ![](https://byob.yarr.is/JS2IIU-MH/StreamlitADIF/time)
 ![](https://byob.yarr.is/JS2IIU-MH/StreamlitADIF/passing_lints)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/JS2IIU-MH/StreamlitADIF?display_timestamp=committer&style=flat&color=blue)
+
+
 
 Streamlitを使ってADIFユーティリティツールを公開していきます。
 
