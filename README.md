@@ -14,7 +14,7 @@ ADIFファイルを読み込ませて、CSVファイル化したものをダウ�
 
 ### ファイルアップロードについて
 
-Streamlitのデフォルトでは200MBのアップロード制限がありましたが、設定ファイル([`.streamlit/config.toml`](.streamlit/config.toml))で1GBに変更しました。
+Streamlitのデフォルトでは200MBのアップロード制限がありましたが、設定ファイル([`.streamlit/config.toml`](.streamlit/config.toml))で1GBに変更しました。これで30,000QSO程度までは読み込めるのではないかと思われます。
 
 ```toml
 [server]
