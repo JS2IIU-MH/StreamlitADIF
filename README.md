@@ -10,11 +10,11 @@ Streamlitを使ってADIFユーティリティツールを公開していきま�
 
 ## ADIF to CSV
 
-ADIFファイルを読み込ませて、CSVファイル化したものをダウンロードすることができます。 **残念ながらStreamlitの`file_uploader()`はファイルサイズ200M制限があります。おそらく7,000QSO程度で超えてしまうのではないかと思われます。** Streamlitでの解決方法が見つからない状況のため、大きいファイルへの対応を検討中です。
+ADIFファイルを読み込ませて、CSVファイル化したものをダウンロードすることができます。Streamlitのデフォルト制限(200MB)は設定で変更済みで、現在は1GBまでアップロード可能です。
 
 ### ファイルアップロードについて
 
-Streamlitのデフォルトでは200MBのアップロード制限がありましたが、設定ファイル([`.streamlit/config.toml`](.streamlit/config.toml))で1GBに変更しました。これで30,000QSO程度までは読み込めるのではないかと思われます。
+Streamlitのデフォルトでは200MBのアップロード制限がありますが、設定ファイル([`.streamlit/config.toml`](.streamlit/config.toml))で1GBに変更しています。これで30,000QSO程度までは読み込めるのではないかと思われます。
 
 ```toml
 [server]
@@ -61,4 +61,3 @@ maxUploadSize = 1024
 - [Streamlit応用編 第9回: 複雑なデータビジュアライゼーション](https://js2iiu.com/2024/09/05/streamlit-09-visualization/)
 - [Streamlit応用編 第10回: マルチページアプリの作成](https://js2iiu.com/2024/09/06/streamlit-10-multipage/)
 - [Streamlit応用編 第11回: StreamlitでAPIを作成する方法](https://js2iiu.com/2024/09/07/streamlit-11-api/)
-
