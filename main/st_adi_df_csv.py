@@ -42,6 +42,7 @@ st.set_page_config(
 st.title("ADIF/ADIファイル変換")
 
 st.write("本ツールによる損害等には責任を持ちません。ADIFファイルはバックアップした状態でご利用ください。サーバ側にADIFデータは残しません。")
+st.caption("アップロード上限は1GBです。")
 
 # ファイルアップローダー (ADIFとADIファイルに対応)
 uploaded_file = st.file_uploader("ADIFまたはADIファイルをアップロードしてください", type=["adif", "adi"])
